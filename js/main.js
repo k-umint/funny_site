@@ -33,6 +33,12 @@
 
             var splittmp = tmp[i].split(",");
 
+            // Shorten the site name.
+            if (splittmp[0].length >= 30) {
+                let shortName = splittmp[0].substring(0, 27) + "...";
+                splittmp[0] = shortName;
+            }
+
             siteInfo.push({
                 "name": splittmp[0],
                 "link": splittmp[1],
