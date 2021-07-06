@@ -1,12 +1,11 @@
 html {
-    background-color: #faf0e6;
+    background-image: url(../img/webb.png);
     body {
         #page {
             text-align: center;
             #global_header {
                 margin: 0px 0px 100px;
                 width: 100%;
-                // height: 100px;
                 background-color: #ff0000;
                 text-align: center;
                 ul {
@@ -26,25 +25,24 @@ html {
                 ul {
                     display: flex;
                     flex-wrap: wrap;
-                    // justify-content: space-around;
                     padding: 0;
                     margin: 0;
                     li.effect {
                         list-style: none;
                         margin-top: 70px;
-                        a {
+                        a.a-siteLink {
                             display: inline-block;
                             text-decoration: none;
                             font-size: 20px;
                             font-weight: bold;
-                            color: black;
+                            color: #fff;
                             display: inline-block;
                             margin: 20px 20px;
                             width: 350px;
                             height: 250px;
                             transition-duration: 0.5s;
                             box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
-                            background-color: #fff;
+                            background-color: #000;
                             &:hover {
                                 transition-duration: 0.5s;
                                 box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
@@ -54,15 +52,38 @@ html {
                                     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
                                 }
                             }
+                            &.x {
+                                display: inline-block;
+                                text-decoration: none;
+                                font-size: 20px;
+                                font-weight: bold;
+                                color: #000;
+                                display: inline-block;
+                                margin: 20px 20px;
+                                width: 350px;
+                                height: 250px;
+                                transition-duration: 0.5s;
+                                box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.4);
+                                background-color: #fff;
+                                &:hover {
+                                    transition-duration: 0.5s;
+                                    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
+                                    span {
+                                        transform: translateY(-100px);
+                                        transition-duration: 0.5s;
+                                        box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
+                                    }
+                                }
+                            }
                             img {
                                 width: 350px;
                                 height: 200px;
                             }
                             p {
                                 text-align: center;
-                                line-height: 0px;
+                                line-height: 40px;
                             }
-                            span {
+                            span.span_describe {
                                 display: block;
                                 position: absolute;
                                 background-color: #191970;
@@ -86,6 +107,15 @@ html {
                                     margin-left: -15px;
                                     border: 15px solid transparent;
                                     border-top: 15px solid #191970;
+                                }
+                                &.a::before {
+                                    content: "";
+                                    position: absolute;
+                                    top: 100%;
+                                    left: 50%;
+                                    margin-left: -15px;
+                                    border: 15px solid transparent;
+                                    border-top: 15px solid #c71585;
                                 }
                             }
                         }

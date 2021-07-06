@@ -62,6 +62,7 @@
             a.setAttribute("href", siteInfo[index].link);
             a.setAttribute("target", "_blank");
             a.setAttribute("rel", "noopener");
+            a.setAttribute("class", "a-siteLink");
 
             //img要素の生成
             let img = document.createElement("img");
@@ -74,6 +75,7 @@
             //span要素の生成
             let span = document.createElement("span");
             span.textContent = siteInfo[index].describe;
+            span.setAttribute("class", "span_describe");
 
             a.appendChild(img);
             a.appendChild(p);
