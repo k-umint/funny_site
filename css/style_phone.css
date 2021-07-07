@@ -6,7 +6,7 @@
     text-align: center;
   }
   html body #page #global_header {
-    margin: 0px 0px 100px;
+    margin: 0px 0px 50px;
     width: 100%;
     background-color: #ff0000;
     text-align: center;
@@ -29,7 +29,7 @@
   }
   html body #page div#work {
     padding: 150px auto;
-    margin: 100px auto 0;
+    margin: 170px auto 0;
     width: 85%;
   }
   html body #page div#work ul {
@@ -38,7 +38,7 @@
   }
   html body #page div#work ul li.effect {
     list-style: none;
-    margin-top: 70px;
+    margin-top: 120px;
   }
   html body #page div#work ul li.effect a.a-siteLink {
     display: inline-block;
@@ -55,19 +55,11 @@
             box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
     background-color: #000;
   }
-  html body #page div#work ul li.effect a.a-siteLink:hover {
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-    -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
-            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
-  }
-  html body #page div#work ul li.effect a.a-siteLink:hover span {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-    -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
-            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  html body #page div#work ul li.effect a.a-siteLink span {
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
   }
   html body #page div#work ul li.effect a.a-siteLink.x {
     display: inline-block;
@@ -84,19 +76,11 @@
             box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.4);
     background-color: #fff;
   }
-  html body #page div#work ul li.effect a.a-siteLink.x:hover {
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-    -webkit-box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
-            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
-  }
-  html body #page div#work ul li.effect a.a-siteLink.x:hover span {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-    -webkit-box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
-            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
+  html body #page div#work ul li.effect a.a-siteLink.x span {
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.4);
+            box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.4);
   }
   html body #page div#work ul li.effect a.a-siteLink img {
     width: 300px;

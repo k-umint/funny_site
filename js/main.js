@@ -63,6 +63,7 @@
             a.setAttribute("target", "_blank");
             a.setAttribute("rel", "noopener");
             a.setAttribute("class", "a-siteLink");
+            a.setAttribute("ontouchstart", "");
 
             //img要素の生成
             let img = document.createElement("img");
@@ -84,9 +85,12 @@
 
             const siteList = document.getElementById("site_list");
             siteList.appendChild(li)
+
         }
+
     }
 
     getInfoFromCSV(); //最初に実行される
 
 }
+

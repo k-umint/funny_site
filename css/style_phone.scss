@@ -5,7 +5,7 @@
             #page {
                 text-align: center;
                 #global_header {
-                    margin: 0px 0px 100px;
+                    margin: 0px 0px 50px;
                     width: 100%;
                     background-color: #ff0000;
                     text-align: center;
@@ -24,16 +24,14 @@
                 }
                 div#work {
                     padding: 150px auto;
-                    margin: 100px auto 0;
+                    margin: 170px auto 0;
                     width: 85%;
                     ul {
-                        // display: flex;
-                        // flex-wrap: wrap;
                         padding: 0;
                         margin: 0;
                         li.effect {
                             list-style: none;
-                            margin-top: 70px;
+                            margin-top: 120px;
                             a.a-siteLink {
                                 display: inline-block;
                                 text-decoration: none;
@@ -41,20 +39,23 @@
                                 font-weight: bold;
                                 color: #fff;
                                 display: inline-block;
-                                // margin: 20px 20px;
                                 width: 300px;
                                 height: 220px;
                                 transition-duration: 0.5s;
                                 box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
                                 background-color: #000;
-                                &:hover {
-                                    transition-duration: 0.5s;
-                                    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
-                                    span {
-                                        transform: translateY(-100px);
-                                        transition-duration: 0.5s;
-                                        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
-                                    }
+                                // &:hover {
+                                //     transition-duration: 0.5s;
+                                //     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+                                //     span {
+                                //         transform: translateY(-100px);
+                                //         transition-duration: 0.5s;
+                                //         box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+                                //     }
+                                // }
+                                span {
+                                    transform: translateY(-90px);
+                                    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
                                 }
                                 &.x {
                                     display: inline-block;
@@ -63,20 +64,23 @@
                                     font-weight: bold;
                                     color: #000;
                                     display: inline-block;
-                                    // margin: 20px 20px;
                                     width: 300px;
                                     height: 220px;
                                     transition-duration: 0.5s;
                                     box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.4);
                                     background-color: #fff;
-                                    &:hover {
-                                        transition-duration: 0.5s;
-                                        box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
-                                        span {
-                                            transform: translateY(-100px);
-                                            transition-duration: 0.5s;
-                                            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
-                                        }
+                                    // &:hover {
+                                    //     transition-duration: 0.5s;
+                                    //     box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
+                                    //     span {
+                                    //         transform: translateY(-100px);
+                                    //         transition-duration: 0.5s;
+                                    //         box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.4);
+                                    //     }
+                                    // }
+                                    span {
+                                        transform: translateY(-90px);
+                                        box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.4);
                                     }
                                 }
                                 img {
