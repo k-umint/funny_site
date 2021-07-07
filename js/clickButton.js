@@ -11,7 +11,7 @@ function chamgeBG() {
     if (backGroundImage === "dark") {
         siteLogo.setAttribute("src", "img/funny_sites_red.png");
         header.style.backgroundColor = "#ff0000"
-        htmlElement.style.backgroundImage = "url(funny_sites/img/webb.png)";
+        htmlElement.style.backgroundImage = "url(img/webb.png)";
         h1.style.color = "#000"
         for (let i = 0; i < span.length; i++) {
             span[i].style.backgroundColor = "#191970";
@@ -22,7 +22,7 @@ function chamgeBG() {
     } else {
         siteLogo.setAttribute("src", "img/funny_sites_blue.png");
         header.style.backgroundColor = "#1C00FD"
-        htmlElement.style.backgroundImage = "url(funny_sites/img/webb-dark.png)";
+        htmlElement.style.backgroundImage = "url(img/webb-dark.png)";
         h1.style.color = "#fff"
         for (let i = 0; i < span.length; i++) {
             span[i].style.backgroundColor = "#c71585";
